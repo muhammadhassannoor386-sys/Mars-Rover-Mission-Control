@@ -12,8 +12,10 @@ The rover shall receive and execute valid commands from Mission Control.
 FR-03 — Report Rover Status
 The rover shall report its current position, battery level, temperature, and communication status.
 
-FR-04 — Safe Mode
-The rover shall enter Safe Mode when a critical battery or thermal condition is detected.
+### FR-4: Command Execution
+The system shall accept movement commands consisting of
+forward, left, and right instructions and execute each valid
+command according to the rover's current position and direction.
 
 FR-05 — Command Authentication
 The system shall allow only authenticated Mission Control operators to issue commands.
