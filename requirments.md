@@ -12,24 +12,19 @@ The rover shall receive and execute valid commands from Mission Control.
 FR-03 — Report Rover Status
 The rover shall report its current position, battery level, temperature, and communication status.
 
-### FR-4: Command Execution
-The system shall accept movement commands consisting of
-forward, left, and right instructions and execute each valid
-command according to the rover's current position and direction.
-
-FR-05 — Command Authentication
+FR-04 — Command Authentication
 The system shall allow only authenticated Mission Control operators to issue commands.
 
-FR-06 — Reject Invalid/Unauthorized Commands
+FR-05 — Reject Invalid/Unauthorized Commands
 The system shall reject commands that are invalid or unauthorized.
 
-FR-07 — Command Execution Status
+FR-06 — Command Execution Status
 Mission Control shall receive the execution status of commands sent to the rover.
 
-FR-08 — Event Logging
+FR-07 — Event Logging
 The system shall record all commands and critical rover events with a timestamp and operator ID.
 
-FR-09 — Communication Failure Handling
+FR-08 — Communication Failure Handling
 The system shall continue operating despite temporary communication interruptions.
 
 Non-Functional Requirements (NFRs)
