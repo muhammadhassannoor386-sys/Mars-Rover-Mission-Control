@@ -44,8 +44,10 @@ Only authenticated Mission Control operators shall be permitted to issue rover c
 NFR-03 — Reliability/Availability
 The system shall continue operating despite temporary communication interruptions.
 
-NFR-04 — Scalability
-The system should support communication with multiple rovers simultaneously.
+### NFR-4: Scalability
+The system shall support the operation of up to 20 rovers
+simultaneously within the mission-control system.
+
 
 NFR-05 — Communication Constraint
 The system shall operate under limited communication bandwidth and several-minute communication delays.
